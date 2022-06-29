@@ -1,0 +1,27 @@
+
+.selected{
+    background-color: rgb(196, 64, 71);
+    color: white;
+}
+
+button{
+    cursor: pointer;
+}
+
+.not_selected{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.poster{
+    transition: transform 450ms ;
+}
+.poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+h5:hover{
+    color: orange;
+}
